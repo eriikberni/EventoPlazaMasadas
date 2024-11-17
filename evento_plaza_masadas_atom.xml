@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Consultora Sostenible en Plaza Masadas</title>
+  <link href="https://www.plazamasadas.com"/>
+  <updated>2024-11-20T09:00:00Z</updated>
+
+ 
+  <entry>
+    <title>Taller de Energías Renovables y Sostenibilidad</title>
+    <link href="https://www.plazamasadas.com/taller-energias-renovables"/>
+    <id>https://www.plazamasadas.com/taller-energias-renovables</id>
+    <updated>2024-11-20T10:00:00Z</updated>
+    <summary>Un taller interactivo donde se explorarán las nuevas tecnologías en energías renovables y su impacto ambiental.</summary>
+  </entry>
+
+ <entry>
+    <title>El Impacto Ecológico de la Inteligencia Artificial</title>
+    <link href="https://www.nature.com/articles/s41586-020-2182-x"/>
+    <id>https://www.nature.com/articles/s41586-020-2182-x</id>
+    <updated>2024-11-17T14:00:00Z</updated>
+    <summary>El impacto ambiental de la IA es un tema creciente. Se exploran los efectos de la huella de carbono de los centros de datos y las soluciones para minimizar su impacto ecológico.</summary>
+  </entry>
+
+  <entry>
+    <title>Cómo el Acuerdo de París Establece las Metas de Emisiones Globales</title>
+    <link href="https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement"/>
+    <id>https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement</id>
+    <updated>2024-11-17T16:00:00Z</updated>
+    <summary>El Acuerdo de París marca un hito importante en la lucha contra el cambio climático, con compromisos claros de reducción de emisiones. Este artículo explora los detalles del acuerdo y sus implicaciones para el futuro de la sostenibilidad.</summary>
+  </entry>
+  
+  <entry>
+    <title>Charla sobre Economía Circular</title>
+    <link href="https://www.plazamasadas.com/charla-economia-circular"/>
+    <id>https://www.plazamasadas.com/charla-economia-circular</id>
+    <updated>2024-11-21T14:00:00Z</updated>
+    <summary>En esta charla, especialistas en economía circular compartirán cómo las empresas pueden adoptar modelos más sostenibles.</summary>
+  </entry>
+
+
+  <entry>
+    <title>Panel sobre Innovación Verde y Startups Sostenibles</title>
+    <link href="https://www.plazamasadas.com/panel-innovacion-verde"/>
+    <id>https://www.plazamasadas.com/panel-innovacion-verde</id>
+    <updated>2024-11-22T16:00:00Z</updated>
+    <summary>Únete al panel de discusión sobre cómo las startups están revolucionando la sostenibilidad con nuevas ideas y tecnologías.</summary>
+  </entry>
+</feed>

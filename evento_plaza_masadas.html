@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultora Sostenible en Plaza Masadas</title>
+  <link rel="stylesheet" href="evento_plaza_masadas.css">
+  
+  <!-- Enlazando los feeds RSS y Atom -->
+  <link  type="application/rss+xml" href="evento_plaza_masadas.xml" />
+  <link  type="application/atom+xml" href="evento_plaza_masadas_atom.xml" />
+</head>
+<body>
+  <header>
+    <h1>Consultora Sostenible en Plaza Masadas</h1>
+    <p>Bienvenidos al evento de startups sostenibles en Plaza Masadas, donde exploramos soluciones innovadoras para un futuro más verde y responsable.</p>
+  </header>
+
+  <section id="feeds">
+    <h2>Suscríbete a nuestras actualizaciones:</h2>
+    <p>Para mantenerte al tanto de todas nuestras actividades, suscríbete a nuestros feeds RSS o Atom:</p>
+    <ul>
+      <li><a href="evento_plaza_masadas.xml">RSS Feed</a> Recibe noticias y actualizaciones del evento directamente en tu lector RSS.</li>
+      <li><a href="evento_plaza_masadas_atom.xml">Atom Feed</a> Mantente informado con las novedades más recientes en formato Atom.</li>
+    </ul>
+    <p>Al suscribirte, recibirás automáticamente las últimas noticias sobre talleres, charlas y otras novedades del evento.</p>
+    <div id="feed-content"></div> <!-- Aquí se mostrarán las noticias -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Consultora Sostenible. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script JavaScript para cargar los feeds -->
+  <script>
+    // Función para cargar un feed RSS o Atom y mostrarlo en el HTML
+    function loadFeed(url) {
+      fetch(url)
+        .then(response => response.text())
+        .then(str => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(str, "application/xml");
+          const items = doc.querySelectorAll('item, entry'); // Para RSS y Atom
+
+          let content = "<ul>";
+          items.forEach(item => {
+            const title = item.querySelector('title').textContent;
+            const link = item.querySelector('link').getAttribute('href') || item.querySelector('link').textContent;
+            const description = item.querySelector('description') ? item.querySelector('description').textContent : item.querySelector('summary').textContent;
+            
+            content += `<li><a href="${link}" target="_blank">${title}</a><p>${description}</p></li>`;
+          });
+          content += "</ul>";
+          document.getElementById('feed-content').innerHTML = content;
+        })
+        .catch(error => {
+          document.getElementById('feed-content').innerHTML = "<p>Error al cargar los feeds.</p>";
+          console.error('Error loading the feed:', error);
+        });
+    }
+
+    // Llamar a la función con la URL del feed RSS o Atom
+    loadFeed('evento_plaza_masadas.xml'); // Cambiar por la URL del feed que quieres cargar
+    // loadFeed('evento_plaza_masadas_atom.xml'); // O también el Atom feed
+  </script>
+</body>
+</html>

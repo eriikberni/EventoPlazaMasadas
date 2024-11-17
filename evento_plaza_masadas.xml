@@ -1,0 +1,42 @@
+<rss version="2.0">
+ <channel>
+    <title>Evento de StartUps en Plaza Masadas</title>
+    <link>http://127.0.0.1:5500/evento_plaza_masadas.html</link>
+    <description>Actualizaciones sobre el evento de startups sostenibles en Plaza Masadas.</description>
+
+    <item>
+      <title>Cómo Evitar el Greenwashing en el Mundo Empresarial</title>
+      <link>https://www.theguardian.com/environment/2024/nov/01/greenwashing-companies-should-face-stricter-laws</link>
+      <description>Greenwashing ha crecido con la demanda de productos ecológicos. ¿Cómo reconocer a las empresas que se aprovechan de esta tendencia sin hacer un cambio real?</description>
+      <pubDate>Sun, 17 Nov 2024 11:45:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Descubriendo EcoAvant</title>
+      <link>https://www.ecoavant.com/</link>
+      <description>Portal de noticias especializado en medio ambiente, cambio climático y sostenibilidad, con reportajes y artículos de actualidad.</description>
+      <pubDate>Wednesday, 22 Nov 2024 14:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Cómo Nutriscore Promueve el Consumo Responsable</title>
+      <link>https://www.nutriscore.org/en/what-is-nutriscore/</link>
+      <description>Nutriscore clasifica los productos alimenticios según su valor nutricional y favorece un consumo más responsable y saludable.</description>
+      <pubDate>Sun, 17 December 2024 10:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>La Deuda Ecológica: Un Desafío Global</title>
+      <link>https://www.wwf.org.uk/updates/ecological-debt-what-it-and-why-it-matters</link>
+      <description>El término "deuda ecológica" se refiere al saldo negativo que los países desarrollados han generado con el medio ambiente. ¿Cómo afecta a la sostenibilidad global?</description>
+      <pubDate>Sun, 27 Dec 2024 09:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Foro Internacional de Innovación Sostenible</title>
+      <link>https://fiis.org/</link>
+      <description>Escucha a expertos hablar sobre las startups que están cambiando el mundo con soluciones sostenibles e innovadoras.</description>
+      <pubDate>Saturday, 09 January 2025 16:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
